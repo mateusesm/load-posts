@@ -4,7 +4,7 @@
 
 Use o gerenciador de pacotes de sua preferência (npm, yarn, etc.) para instalar todas as dependências
 
-No meu caso, usei tanto o yarn quanto o npm
+No meu caso, usei o npm
 
 Exemplo com o npm:
 
