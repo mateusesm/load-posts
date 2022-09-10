@@ -8,7 +8,6 @@ import { Posts } from '../../components/Posts'
 import { Button } from '../../components/Button'
 import { SearchInput } from '../../components/SearchInput'
 
-
 export const Home = () => {
 
   const [ posts, setPosts ] = useState([])

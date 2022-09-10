@@ -1,6 +1,6 @@
 //import { Component } from "react";
 
-import './styles/style.css'
+import './style.css'
 
 export const Button = ({ text, loadMorePosts, disabled }) => {
 
