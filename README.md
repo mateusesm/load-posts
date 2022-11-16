@@ -1,4 +1,4 @@
-### Projeto simples de carregamento de posts desenvolvido no Curso de React JS do professor Luíz Otávio Miranda, na Udemy
+### Projeto simples de Carregamento de Posts desenvolvido no Curso de React JS do professor Luíz Otávio Miranda, na Udemy
 
 ### Instalação
 
