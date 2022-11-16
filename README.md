@@ -1,5 +1,7 @@
 ### Projeto simples de Carregamento de Posts desenvolvido no Curso de React JS do professor Luíz Otávio Miranda, na Udemy
 
+O projeto exibe posts fictícios carregados da API JSONPlaceholder (https://jsonplaceholder.typicode.com/)
+
 ### Instalação
 
 Após fazer o download deste projeto, certifique-se de que tem o Node JS instalado em sua máquina rodando o seguinte comando:
