@@ -27,3 +27,5 @@ npm run dev
 ```
 
 Será rodado no localhost (em alguma porta) o projeto React e apresentado o endereço no terminal. Coloque o endereço no navegador.
+
+[Clique aqui para ver o load posts](https://load-posts.vercel.app/)
