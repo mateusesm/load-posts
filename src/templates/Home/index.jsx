@@ -16,7 +16,7 @@ export const Home = () => {
 
   const [ page, setPage ] = useState(0)
 
-  const [ postsPerPage, setPostsPerPage ] = useState(2)
+  const [ postsPerPage, setPostsPerPage ] = useState(3)
 
   const [ searchValue, setSearchValue ] = useState()
 
@@ -78,24 +78,24 @@ export const Home = () => {
           {!!searchValue && (
 
             <h1>Search value: {searchValue}</h1>
-            
+
           )}
 
           <SearchInput
-          
+
             handleChange={handleChange}
             serachValue={searchValue}
 
           />
 
       </div>
-  
+
       {filteredPosts.length > 0 && (
 
         <Posts posts={filteredPosts} />
 
       )}
-      
+
       {filteredPosts.length === 0 && (
 
         <p>Não existem posts para sua pesquisa {":("} </p>
@@ -106,12 +106,12 @@ export const Home = () => {
 
         {!searchValue && (
 
-          <Button 
-          
-            text="Load more posts" 
+          <Button
+
+            text="Load more posts"
             loadMorePosts={loadMorePosts}
             disabled={noMorePosts}
-                
+
           />
 
         )}
@@ -138,7 +138,7 @@ export const Home = () => {
   async componentDidMount() {
 
     await this.loadPosts()
-    
+
   }
 
   loadPosts = async () => {
@@ -151,7 +151,7 @@ export const Home = () => {
 
       posts: postsAndPhotos.slice(page, postsPerPage),
       allPosts: postsAndPhotos
-    
+
     })
 
   }
@@ -209,24 +209,24 @@ export const Home = () => {
             {!!searchValue && (
 
               <h1>Search value: {searchValue}</h1>
-              
+
             )}
 
             <SearchInput
-            
+
               handleChange={this.handleChange}
               serachValue={searchValue}
 
             />
 
         </div>
-    
+
         {filteredPosts.length > 0 && (
 
           <Posts posts={filteredPosts} />
 
         )}
-        
+
         {filteredPosts.length === 0 && (
 
           <p>Não existem posts para sua pesquisa {":("} </p>
@@ -237,12 +237,12 @@ export const Home = () => {
 
           {!searchValue && (
 
-            <Button 
-            
-              text="Load more posts" 
+            <Button
+
+              text="Load more posts"
               loadMorePosts={this.loadMorePosts}
               disabled={noMorePosts}
-                  
+
             />
 
           )}
